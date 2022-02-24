@@ -41,4 +41,5 @@ fi
 
 tar -xzf $tarname
 mv $foldername bat
+cp bat/autocomplete/bat.zsh bat/autocomplete/_bat 
 rm $tarname
