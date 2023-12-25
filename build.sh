@@ -21,9 +21,10 @@ do
     cp $CDIR/$f $build_dir/
 done
 
-portable_url='https://github.com/sharkdp/bat/releases/download/v0.19.0/bat-v0.19.0-x86_64-unknown-linux-musl.tar.gz'
+# portable_url='https://github.com/sharkdp/bat/releases/download/v0.19.0/bat-v0.19.0-x86_64-unknown-linux-musl.tar.gz'
+portable_url='https://github.com/sharkdp/bat/releases/download/v0.24.0/bat-v0.24.0-x86_64-unknown-linux-musl.tar.gz'
 tarname=`basename $portable_url`
-foldername='bat-v0.19.0-x86_64-unknown-linux-musl'
+foldername='bat-v0.24.0-x86_64-unknown-linux-musl'
 
 cd $build_dir
 
